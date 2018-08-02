@@ -6,7 +6,7 @@ function subtract(a, b){
   return a - b
 }
 
-function multiple(a, b){
+function multiply(a, b){
   return a*b  
 }
 
@@ -15,11 +15,13 @@ function divide(a, b){
 }
 
 function inc(n){
-  return n++
+  n = n++
+  return n
 }
 
 function dec(n){
-  return n--
+  n = n--
+  return n
 }
 
 function makeInt(n){
